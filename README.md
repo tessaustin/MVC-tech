@@ -38,4 +38,4 @@ Please reach me through my Github account or email with any additional questions
 - Email: tessaustin92@gmail.com 
 
 ## Screenshot
-
+![img](img/Screenshot.png)
