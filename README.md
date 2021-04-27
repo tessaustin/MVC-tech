@@ -37,5 +37,5 @@ Please reach me through my Github account or email with any additional questions
 - Github: [tessaustin](https://github.com/tessaustin)
 - Email: tessaustin92@gmail.com 
 
-## Screenshot
+## Screenshot:
 ![img](img/Screenshot.png)
