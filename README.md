@@ -24,7 +24,7 @@ Developers can publish their blog posts and comment on other developers' posts.
 - connect-session-sequelize 
 
 ## Usage:
-
+https://calm-fjord-73302.herokuapp.com/
 
 ## Technology:
 - Express
