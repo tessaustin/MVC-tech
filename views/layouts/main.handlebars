@@ -11,7 +11,7 @@
 </head>
 
 <div class="wrapper">
-    <header>
+    <header class="pb-4">
         <h1 class="has-text-black has-text-weight-bold is-size-2">
             TECH BLOG
         </h1>
@@ -19,7 +19,6 @@
             {{#if loggedIn}}
             <a href="/" class="navbar-item is-hoverable pt-1">Homepage</a>
             <a href="/dashboard" class="navbar-item is-hoverable pt-1">Dashboard</a>
-            <a href="/dashboard/create/" class="navbar-item is-hoverable pt-1 mr-4">Create Post</a>
             <button id="logout" class="button is-danger has-text-black">Logout</button>
             {{else}}
             <a href="/" class="navbar-item is-hoverable pt-1">Homepage</a>
@@ -36,8 +35,7 @@
         <div class="row-is-full content has-text-centered">
             <p>
                 <a href="/">Homepage</a>{{#if loggedIn}} |
-                <a href="/dashboard/">Dashboard</a> |
-                <a href="/dashboard/create/">Create new post</a>
+                <a href="/dashboard/">Dashboard</a>
                 {{else}}
                 | <a href="/login/">Login</a>
                 {{/if}}
