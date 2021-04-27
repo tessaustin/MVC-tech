@@ -1,12 +1,12 @@
 <div class="mb-5 pt-3">
     <a href="/dashboard/create/">
-        <button id="create-post" class="button is-primary is-pulled-right has-text-black">
+        <button id="create-post" class="button is-info is-pulled-right has-text-black">
             Create Post
         </button>
     </a>
 
     <h4 class="has-text-weight-bold pb-4">
-        Dashboard: Your Posts
+        Posts you've created:
     </h4>
     <hr>
     {{#if posts.length}}
@@ -25,7 +25,7 @@
 
 {{else}}
 <h6 class="pb-4 has-text-centered">
-    You do not have any posts
+    No posts have been created
 </h6>
 
 {{/if}}
